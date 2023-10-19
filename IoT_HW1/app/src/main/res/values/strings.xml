@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">IoT_HW1</string>
+    <string name="UI_title">Activity Recognition APP</string>
+
+    <string name="btn_collect">Collect</string>
+    <string name="btn_train">Train</string>
+    <string name="btn_deploy">Deploy</string>
+
+    <string name="CP_label">Label: </string>
+    <string name="CP_btn_start">Start</string>
+    <string name="CP_btn_end">End</string>
+<!--    <string name="CP_ls_Walking">Walking</string>-->
+<!--    <string name="CP_ls_Jogging">Jogging</string>-->
+<!--    <string name="CP_ls_Sitting">Sitting</string>-->
+<!--    <string name="CP_ls_Standing">Standing</string>-->
+<!--    <string name="CP_ls_Upstairs">Upstairs</string>-->
+<!--    <string name="CP_ls_Downstairs">Downstairs</string>-->
+    <string-array name="CP_label_list">
+        <item>Walking</item>
+        <item>Jogging</item>
+        <item>Upstairs</item>
+        <item>Downstairs</item>
+        <item>Sitting</item>
+        <item>Standing</item>
+    </string-array>
+
+    <string name="random_forest">Random Forest</string>
+    <string name="naive_bayes">Naive Bayes</string>
+    <string name="decision_tree">Decision Tree</string>
+    
+</resources>
